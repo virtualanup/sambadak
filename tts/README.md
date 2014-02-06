@@ -1,0 +1,1 @@
+This is the text-to-speech synthesis engine. It parses the given string and convert it into voice data

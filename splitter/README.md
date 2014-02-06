@@ -1,0 +1,1 @@
+This is the splitter program to split the given voice data to individual character voice data. 
