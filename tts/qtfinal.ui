@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>748</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>748</width>
+    <height>672</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>संवादक</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>500</width>
+      <height>195</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="logo.qrc">:/newPrefix/logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-10</y>
+      <width>851</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>851</width>
+      <height>611</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="logo.qrc">:/newPrefix/bg.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="savebtn">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>231</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>20</pointsize>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>सेभ गर्नुहोस्</string>
+    </property>
+    <property name="icon">
+     <iconset resource="logo.qrc">
+      <normaloff>:/newPrefix/save.png</normaloff>:/newPrefix/save.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>75</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="autoRepeat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="speakbtn">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>470</y>
+      <width>191</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>बोल्नुहोस्</string>
+    </property>
+    <property name="icon">
+     <iconset resource="logo.qrc">
+      <normaloff>:/newPrefix/speak.png</normaloff>:/newPrefix/speak.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>75</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>190</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>मेट्नुहोस्</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>240</y>
+      <width>611</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Caslon Pro</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>491</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="logo.qrc">:/newPrefix/logo.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>savebtn</zorder>
+   <zorder>speakbtn</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>label</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>748</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTTS">
+    <property name="title">
+     <string>TTS</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuTTS"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionHelp_F1">
+   <property name="text">
+    <string>Help F1</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>savebtn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>saveclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>255</x>
+     <y>548</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>508</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>speakbtn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>speakclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>663</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>548</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>textEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>642</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>592</x>
+     <y>261</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>saveclick()</slot>
+  <slot>speakclick()</slot>
+ </slots>
+</ui>
